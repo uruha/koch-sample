@@ -68,6 +68,7 @@ module.exports = {
           exclude: /(node_modules)/
         });
       }
-    }
+    },
+    postcss: [require('postcss-nested')()]
   }
 };

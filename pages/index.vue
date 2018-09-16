@@ -8,24 +8,19 @@
       <h2 class="subtitle">
         Hello My Profile page :)
       </h2>
-      <div class="links">
-        <ul>
-          <li><a href="https://github.com/uruha" target="_blank">GitHub</a></li>
-          <li><a href="https://soundcloud.com/ur_uha" target="_blank">Sound Cloud</a></li>
-          <li><a href="https://www.instagram.com/ur_uha/" target="_blank">Instagram</a></li>
-          <li><a href="https://twitter.com/ur_uha" target="_blank">Twitter</a></li>
-        </ul>
-      </div>
+      <links/>
     </div>
   </section>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Links from '~/components/Links.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Links
   }
 }
 </script>
@@ -41,9 +36,11 @@ export default {
 .title {
   font-weight: 400;
   font-size: 36px;
+  color: #333;
 }
 .subtitle {
   font-weight: 400;
   font-size: 24px;
+  color: #333;
 }
 </style>
