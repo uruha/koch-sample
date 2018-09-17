@@ -42,8 +42,21 @@ module.exports = {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa'
   ],
+  manifest: {
+    name: 'kotaro-chiba',
+    lang: 'ja',
+    short_name: 'koch',
+    title: 'kotaro chiba',
+    'og:title': 'kotaro chiba',
+    description: 'kotaro chiba profile',
+    'og:description': 'kotaro chiba profile'
+  },
+  workbox: {
+    dev: false
+  },
   /*
   ** Axios module configuration
   */

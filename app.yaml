@@ -13,9 +13,9 @@ handlers:
     static_files: static/\1
     upload: static/.*\.(gif|png|jpg|ico|txt)$
 
-  # - url: /sw.js
-  #   static_files: static/sw.js
-  #   upload: static/sw.js
+  - url: /sw.js
+    static_files: static/sw.js
+    upload: static/sw.js
 
   - url: /.*
     script: auto
