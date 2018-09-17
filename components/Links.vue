@@ -9,9 +9,6 @@
   </div>
 </template>
 <style scoped>
-:root {
-    --white: #fff;
-}
 .links {
     padding: 2rem;
 }
