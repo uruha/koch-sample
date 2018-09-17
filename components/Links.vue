@@ -8,7 +8,7 @@
     </ul>
   </div>
 </template>
-<style scoped>
+<style scoped lnag="postcss">
 .links {
     padding: 2rem;
 }
