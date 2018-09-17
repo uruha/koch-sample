@@ -34,12 +34,12 @@ export default {
   text-align: center;
 }
 .title {
-  font-weight: 400;
+  font-weight: 200;
   font-size: 36px;
   color: #333;
 }
 .subtitle {
-  font-weight: 400;
+  font-weight: 200;
   font-size: 24px;
   color: #333;
 }

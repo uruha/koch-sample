@@ -17,7 +17,7 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Raleway:400,500,600,700'
+        href: 'https://fonts.googleapis.com/css?family=Raleway:200,300,400'
       }
     ]
   },
@@ -25,7 +25,7 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#FFFFFF' },
+  loading: { color: '#ebb251' },
 
   /*
   ** Global CSS
