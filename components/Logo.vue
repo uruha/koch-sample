@@ -29,7 +29,7 @@
     0% { transform:translateY(-2px); }
   100% { transform:translateY( 2px); }
 }
-@keyframes diagoalLeft {
+@keyframes diagonalLeft {
   0% {
     transform:translate(-2px, -2px);
   }
@@ -45,6 +45,6 @@
   animation: horizontal 1s ease-in-out infinite alternate;
 }
 #back-red {
-  animation: diagoalLeft 1s ease-in-out infinite alternate;
+  animation: diagonalLeft 1s ease-in-out infinite alternate;
 }
 </style>
