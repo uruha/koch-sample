@@ -19,7 +19,8 @@
 </template>
 <style scoped>
 .logo-container {
-  padding: 1rem;
+  width: 60%;
+  margin: 0 auto;
 }
 @keyframes horizontal {
     0% { transform:translateX(-1px); }

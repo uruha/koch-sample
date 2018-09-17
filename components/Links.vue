@@ -9,6 +9,14 @@
   </div>
 </template>
 <style scoped lnag="postcss">
+@keyframes vertical {
+    0% { transform:translateY(0px); }
+    100% { transform:translateY(-3px); }
+}
+@keyframes vertical-out {
+    0% { transform:translateY(-3px); }
+    100% { transform:translateY(0px); }
+}
 .links {
     padding: 2rem;
 }
@@ -25,6 +33,8 @@ a {
     display: inline-block;
     padding: .5rem;
     margin: 1px;
+    transition: .3s ease; 
+    animation: vertical-out .5s ease-out forwards;
     &.github {
         border: 1px solid #ebb251;
     }
@@ -36,6 +46,25 @@ a {
     }
     &.twitter {
         border: 1px solid #526aa9;
+    }
+    &:hover {
+        animation: vertical .3s ease-out forwards;
+        &.github {
+            color: #fff;
+            background-color: #ebb251;
+        }
+        &.soundcloud {
+            color: #fff;
+            background-color: #cd5655;
+        }
+        &.instagram {
+            color: #fff;
+            background-color: #08968f;
+        }
+        &.twitter {
+            color: #fff;
+            background-color: #526aa9;
+        }
     }
 }
 </style>
