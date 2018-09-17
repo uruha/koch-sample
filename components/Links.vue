@@ -29,11 +29,10 @@ ul {
 }
 a {
     text-decoration: none;
-    color: #333;
+    color: var(--txtColor);
     display: inline-block;
     padding: .5rem;
     margin: 1px;
-    background-color: #fff;
     transition: .3s ease; 
     animation: vertical-out .5s ease-out forwards;
     &.github {

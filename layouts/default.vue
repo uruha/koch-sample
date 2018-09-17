@@ -3,7 +3,6 @@
     <nuxt/>
   </div>
 </template>
-
 <style>
 html {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
