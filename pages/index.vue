@@ -18,28 +18,22 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import Links from '~/components/Links.vue'
+import { mapState } from 'vuex';
 
 export default {
   components: {
     Logo,
     Links
   },
-  data() {
-    return {
-      styles: {
-        '--txtColor': '#333',
-        '--bgc': '#fff'
-      }
-    }
-  },
+  computed: mapState({
+    styles: state => state.theme
+  }),
   methods: {
     changeDark: function() {
-      this.styles['--bgc'] = '#000';
-      this.styles['--txtColor'] = '#fff';
+      this.$store.commit('changeDark');
     },
     changeWhite: function() {
-      this.styles['--bgc'] = '#fff';
-      this.styles['--txtColor'] = '#040000';
+      this.$store.commit('changeWhite');
     }
   }
 }

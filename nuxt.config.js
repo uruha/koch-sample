@@ -55,7 +55,7 @@ module.exports = {
     'og:description': 'kotaro chiba profile'
   },
   workbox: {
-    dev: false
+    dev: true
   },
   /*
   ** Axios module configuration
